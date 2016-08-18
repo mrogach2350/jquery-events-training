@@ -10,8 +10,3 @@ $(document).ready(function(){
     event.preventDefault();
   });
 })
-
-$('form').on('click', function handleClick(event){
-  console.log('clicked');
-  event.preventDefault();
-});
